@@ -31,9 +31,9 @@ h1 {
 #resultDisplay {
     font-size: 5rem;
 }
-.greenText {
-    color: rgb(0, 255, 0);
+#resultDisplay.greenText {
+    color: rgb(0, 255, 0) !important;
 }
-.redText {
-    color: red
+#resultDisplay.redText {
+    color: red !important;
 }
