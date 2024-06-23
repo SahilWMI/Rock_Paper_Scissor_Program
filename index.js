@@ -31,11 +31,11 @@ function playGame(playerChoice){
     computerDisplay.textContent = `COMPUTER: ${computerChoice}`;
     resultDisplay.textcontent = result;
 
-    swith (result){
+    switch (result){
         case "YOU WIN!":
             resultDisplay.classList.add("greenText");
             break;
-        case "YOU LOSE!:
+        case "YOU LOSE!":
             resultDisplay.classList.add("redText");
             break;
     }
