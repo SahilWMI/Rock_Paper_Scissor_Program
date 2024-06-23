@@ -29,6 +29,7 @@ h1 {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 
 .choices button:hover {
@@ -44,7 +45,7 @@ h1 {
 }
 
 #resultDisplay.greenText {
-    color: rgb(0, 255, 0) !important;
+    color: green !important;
 }
 
 #resultDisplay.redText {
